@@ -1,0 +1,11 @@
+Env: "dev"
+
+DatabaseSettings:
+  DatabaseURI: "root:@tcp(127.0.0.1:3306)/go_shop?parseTime=True&loc=Local"
+  DatabaseName: "go_shop"
+  Username: "root"
+  Password: ""
+
+
+JwtSettings:
+  SecretKey: "go-shop.local"
